@@ -160,7 +160,7 @@ void render_status(void) {
     // Define layers here, Have not worked out how to have text displayed for each layer. Copy down the number you see and add a case for it below
     int name_num;
     uint32_t lstate;
-    oled_write_P(layer_names[current_default_layer], false);
+    //oled_write_P(layer_names[current_default_layer], false);
 #    ifdef DEBUG_MATRIX_SCAN_RATE
     char buf[16];
     sprintd(buf, " scan:", get_matrix_scan_rate());
